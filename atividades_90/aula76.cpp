@@ -1,0 +1,14 @@
+#include <iostream>
+#define MAX 100
+using namespace std;
+
+int main()
+{
+    char nome[MAX];
+
+    cout << "Digite seu nome: ";
+   // cin >> nome;
+    cin.get(nome, MAX);
+    cout << "Oi " << nome << endl;
+    return 0;
+}
